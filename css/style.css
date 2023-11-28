@@ -13,7 +13,12 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 104, 1);
-    padding: 0 17%;
+    padding: 10px 17%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 2;
 }
 
 /* header-links */
@@ -32,7 +37,7 @@
 
 .header-logo{
     display: block;
-    max-width: 150px; 
+    max-width: 100px; 
 }
 
 /* header-symbols */
@@ -71,10 +76,8 @@
     left: 0;
 }
 
-.card img{
+img{
     max-width: 100%;
-    display: block;
-
 }
 
 .card i{
@@ -83,6 +86,7 @@
     right: 0;
     background-color: white;
     padding: 10px;
+    z-index: 1;
 }
 
 .sale{
@@ -99,4 +103,19 @@
 
 .red{
     color: red;
+}
+
+/* --hover-card-- */
+
+.img-hover{
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.card:hover .img-hover{
+    display: block;
 }

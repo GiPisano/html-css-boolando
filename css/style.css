@@ -18,7 +18,7 @@
     right: 0;
     left: 0;
     top: 0;
-    z-index: 2;
+    z-index: 1;
 }
 
 /* header-links */
@@ -86,7 +86,6 @@ img{
     right: 0;
     background-color: white;
     padding: 10px;
-    z-index: 1;
 }
 
 .sale{

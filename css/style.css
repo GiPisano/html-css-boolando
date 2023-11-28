@@ -1,0 +1,44 @@
+/* --GENERAL-- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --HEADER-- */
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 104, 1);
+    padding: 0 10%;
+}
+
+/* header-links */
+
+.header-link ul li{
+    display: inline-block;
+}
+
+.header-link ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+/* header- logo */
+
+.header-logo{
+    display: block;
+    max-width: 150px; 
+}
+
+/* header-symbols */
+
+.symbols i{
+    color: white;
+    padding: 0 3px;
+}
+

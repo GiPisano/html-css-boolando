@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255, 104, 1);
-    padding: 0 10%;
+    padding: 0 17%;
 }
 
 /* header-links */
@@ -42,3 +42,61 @@
     padding: 0 3px;
 }
 
+
+/* --MAIN-- */
+
+.container-cards{
+    max-width: 1080px;
+    margin: 50px auto;
+    padding: 0 10px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px;
+    width: calc(100% / 3 - 10px);
+    max-width: 300px;
+    position: relative;
+}
+
+.card p{
+    font-size: 10px;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+}
+
+.card img{
+    max-width: 100%;
+    display: block;
+
+}
+
+.card i{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+}
+
+.sale{
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.red{
+    color: red;
+}

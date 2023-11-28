@@ -105,6 +105,10 @@ img{
     color: red;
 }
 
+.line{
+    text-decoration-line: line-through;
+}
+
 /* --hover-card-- */
 
 .img-hover{
@@ -118,4 +122,36 @@ img{
 
 .card:hover .img-hover{
     display: block;
+}
+
+.card:hover .fa-heart{
+    color: red;
+}
+
+/* --FOOTER-- */
+
+.container-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 17%;
+    background-color: rgb(26, 26, 26);
+    color: white;
+
+}
+
+.footer-left nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px 10px 0;
+}
+
+.footer-left nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.footer-right i{
+    padding: 5px 10px 10px 0;
 }
